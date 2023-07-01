@@ -1,0 +1,267 @@
+# Sections content configuration file
+##
+### use navigation.yml file to re-order, delete or add section of each card
+### here you can find all content in all pre-build sections
+
+### Hero [ hero-image ]
+hero:
+  enable: 1
+  image: "images/about/profile.jpg"
+  image_alt: "Yash Patel"
+  title: "<b>Yash</b> Patel"
+  before_title: "Hello, <b>my name is</b>"
+  after_title: "I make <strong>Real Estate Content</strong>"
+  description: "From Toronto, Canada. I have rich experience in video production, I also do editorial style photography and virtual tours."
+  button1:
+    label: "Download CV"
+    link: "https://drive.google.com/"
+  button2:
+    label: "My Skills"
+    link: "#skills-section"
+  bg_title: "Content Creation"
+  info:
+    - num: "3 <strong>+</strong>"
+      value: "Years of <strong>Experience</strong>"
+
+    - num: "330"
+      value: "Completed <strong>Projects</strong>"
+
+### Services [ services ]
+services:
+  enable: 1
+  title: "What I Do"
+  subtitle: "my <b>Services</b>"
+  bg_title: "Services"
+
+  items:
+    - title: "Videography &amp; Editing"
+      subtitle: "Video Production"
+      text: "Work with the clients to establish the overall vision then shoot, edit &amp; deliver."
+      button_label: "See Pricing"
+      button_link: "#pricing-section"
+
+    - title: "Aerial Coverage"
+      subtitle: "Drone Operator"
+      text: "I am a licensed drone operator with and can provide aerial coverage to meet any of the clients needs."
+      button_label: "See Pricing"
+      button_link: "#pricing-section"
+
+    - title: "Photography"
+      subtitle: "Photos"
+      text: "I can deliver high-quality architectural style photography with a same day turnaround."
+      button_label: "See Pricing"
+      button_link: "#pricing-section"
+
+    - title: "Virtual Tours"
+      subtitle: "Virtual-360 Tours"
+      text: "I can create a virtual tour of any property that can be viewed on any device."
+      button_label: "See Pricing"
+      button_link: "#pricing-section"
+
+
+### Portfolio [ portfolio ]
+#items generates from dir /_works/*
+portfolio:
+  enable: 1
+  title: "Portfolio"
+  subtitle: "my <b>work</b>"
+  bg_title: "Portfolio"
+  button:
+    link: "works/"
+    label: "View More"
+
+### Skills [ skills ]
+skills:
+  enable: 1
+  title: "Professional Skills"
+  subtitle: "my <b>Talent</b>"
+  bg_title: "Skills"
+
+  column1:
+    items:
+      - label: "Videography" #0-10 progress in dots
+        text: "With over 3 years of experience in video production, I have acquired a deep understanding of shooting all types of locations and can deliver a high-quality product."
+        value: "85" #0-100 progress in %
+
+      - label: "Video Editing  " #0-10 progress in dots
+        text: "Todays audience has a short attention span, I can deliver a video that will keep the audience engaged and wanting more."
+        value: "75" #0-100 progress in %
+
+  column2:
+    items:
+      - label: "Photography" #0-10 progress in dots
+        text: "Shooting with a full-frame camera and an array of lenses, I can deliver high-quality photos that will make any property stand out."
+        value: "75" #0-100 progress in %
+
+      - label: "Photo Editing" #0-10 progress in dots
+        text: "Image manipulation is a key part of the editing process, I can deliver a final product that will make any property stand out."
+        value: "70" #0-100 progress in %
+
+  column3:
+    items:
+      - label: "Drone Operator" #0-10 progress in dots
+        text: "Licensed drone operator with over 3 years of experience, I can deliver aerial coverage to meet any of the clients needs."
+        value: "90" #0-100 progress in %
+
+      - label: "Virtual Reality" #0-10 progress in dots
+        text: ""
+        value: "80" #0-100 progress in %
+
+### Resume [ resume ]
+resume:
+  enable: 1
+  title: "Resume"
+  subtitle: "my <b>Story</b>"
+  bg_title: "History"
+
+  education:
+    title: "Education"
+    items:
+      - name: "Sheridan College"
+        subname: "Bachelor of Computing and Network Communications (Honours)"
+        period: "2022 - Present"
+        text: "On going studies in the field of computing and network communications."
+
+  experience:
+    title: "Experience"
+    items:
+      - name: "Freelance Videographer"
+        subname: "Self Employed"
+        period: "2020 - <b>Present</b>"
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+      - name: "Metal Roof Construction"
+        subname: "Drone operator/ Quality Inspector"
+        period: "2018 - 2023"
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+
+### Testimonials [ testimonials ]
+# testimonials:
+#   enable: 1
+#   title: "Testimonials"
+#   subtitle: "what <b>Customers Say</b>"
+#   bg_title: "Reviews"
+
+#   items:
+#     - image: "images/testimonials/testi4-2.jpg"
+#       name: "Barbara Wilson"
+#       role: "CEO Company"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+#     - image: "images/testimonials/testi4-1.jpg"
+#       name: "Charlie Smith"
+#       role: "Designer"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+#     - image: "images/testimonials/testi4-4.jpg"
+#       name: "Roy Wang"
+#       role: "Manager GYM"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+#     - image: "images/testimonials/testi4-3.jpg"
+#       name: "Jennifer Smith"
+#       role: "CEO &amp; Founder"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+#     - image: "images/testimonials/testi4-5.jpg"
+#       name: "Paul Freeman"
+#       role: "Photographer"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+
+### Pricing [ pricing ]
+pricing:
+  enable: 1
+  title: "Pricing"
+  subtitle: "my <b>Price Board</b>"
+  bg_title: "Pricing"
+
+  items:
+    - name: "Hourley Basis"
+      center: false
+      price: "75 <b>$</b>"
+      price_after: "Hour"
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+      list:
+        - value: "Photography"
+          included: true
+        - value: "Videography"
+          included: true
+        - value: "Virtual Reality"
+          included: true
+      button:
+        label: "Start Project"
+        link: "#contact-section"
+
+    - name: "Freelancing"
+      center: true
+      label: "Popular"
+      price: "825 <b>$</b>"
+      price_after: "Week"
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+      list:
+        - value: "Photography"
+          included: true
+        - value: "Videography"
+          included: true
+        - value: "Virtual Reality"
+          included: true
+      button:
+        label: "Start Project"
+        link: "#contact-section"
+
+    - name: "Monthly Contract"
+      center: false
+      price: "2.625 <b>$</b>"
+      price_after: "Month"
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+      list:
+        - value: "Brand Design"
+          included: true
+        - value: "Web Development"
+          included: true
+        - value: "Advertising"
+          included: true
+        - value: "Photography"
+          included: true
+      button:
+        label: "Start Project"
+        link: "#contact-section"
+
+
+### Blog [ blog ]
+#items generates from dir /_posts/*
+# blog:
+#   enable: 1
+#   title: "Latest Blog"
+#   subtitle: "my <b>Articles and Advice</b>"
+#   bg_title: "Blog"
+#   button:
+#     label: "View Blog"
+#     link: "blog/"
+
+
+### Contact [ contacts ]
+contacts:
+  enable: 1
+  title: "Contact Me"
+  subtitle: "Let’s <b>Talk</b>"
+  bg_title: "Contact Me"
+
+  list:
+    - label: "Address"
+      icon: "far fa-map"
+      text: "Oakville, Ontario, Canada"
+
+    - label: "Freelance"
+      icon: "far fa-user"
+      text: "Available Right Now"
+
+    - label: "Email"
+      icon: "far fa-envelope"
+      text: "yashpatel4337@gmail.com"
+
+    - label: "Phone"
+      icon: "far fa-address-book"
+      text: "+1 289-400-0459"

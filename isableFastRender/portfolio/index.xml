@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Yash Patel - Portfolio</title>
+    <link>http://localhost:1313/portfolio/</link>
+    <description>Recent content in Projects on Yash Patel - Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A1</title>
+      <link>http://localhost:1313/portfolio/explore/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/portfolio/explore/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A2</title>
+      <link>http://localhost:1313/portfolio/gooir/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/portfolio/gooir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A3</title>
+      <link>http://localhost:1313/portfolio/kana/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/portfolio/kana/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
