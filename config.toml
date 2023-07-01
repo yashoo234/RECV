@@ -1,6 +1,6 @@
 # General Settings
 title = "Yash Patel - Portfolio"
-baseURL = "https://bslthemes.com/" #YOUR SITE URL
+baseURL = "https://64a02e8b0e35133a953f8fb0--velvety-maamoul-04e875.netlify.app/" #YOUR SITE URL
 languageCode = "en-us"
 theme = "luique"
 resourceDir = "resources"
