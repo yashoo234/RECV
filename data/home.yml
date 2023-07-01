@@ -11,7 +11,7 @@ hero:
   title: "<b>Yash</b> Patel"
   before_title: "Hello, <b>my name is</b>"
   after_title: "I make <strong>Real Estate Content</strong>"
-  description: "From Toronto, Canada. I have rich experience in video production, I also do editorial style photography and virtual tours."
+  description: "Based in Toronto, I create dynamic videos, capture striking photos, and design immersive virtual tours."
   button1:
     label: "Download CV"
     link: "https://drive.google.com/"
@@ -36,27 +36,29 @@ services:
   items:
     - title: "Videography &amp; Editing"
       subtitle: "Video Production"
-      text: "Work with the clients to establish the overall vision then shoot, edit &amp; deliver."
+      text: "Transform the clients vision into captivating visuals through expert shooting, editing, and final delivery."
       button_label: "See Pricing"
       button_link: "#pricing-section"
 
     - title: "Aerial Coverage"
       subtitle: "Drone Operator"
-      text: "I am a licensed drone operator with and can provide aerial coverage to meet any of the clients needs."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
-
-    - title: "Photography"
-      subtitle: "Photos"
-      text: "I can deliver high-quality architectural style photography with a same day turnaround."
+      text: "I provide striking aerial visuals, leveraging my skills as a licensed drone operator to meet the clients unique needs."
       button_label: "See Pricing"
       button_link: "#pricing-section"
 
     - title: "Virtual Tours"
       subtitle: "Virtual-360 Tours"
-      text: "I can create a virtual tour of any property that can be viewed on any device."
+      text: "Experience any property from anywhere with immersive virtual tours compatible with all devices."
       button_label: "See Pricing"
       button_link: "#pricing-section"
+
+    - title: "Photography"
+      subtitle: "Photos"
+      text: "Showcasing the beauty of the clients property with my sharp, high-quality photography."
+      button_label: "See Pricing"
+      button_link: "#pricing-section"
+
+
 
 
 ### Portfolio [ portfolio ]
