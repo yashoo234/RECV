@@ -23,8 +23,8 @@ hero:
     - num: "3 <strong>+</strong>"
       value: "Years of <strong>Experience</strong>"
 
-    # - num: "330"
-    #   value: "Completed <strong>Projects</strong>"
+    - num: "330"
+      value: "Completed <strong>Projects</strong>"
 
 ### Services [ services ]
 services:
