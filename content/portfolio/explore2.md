@@ -1,9 +1,9 @@
 ---
 # preview details
 title: Brampton
-category: Photography, Videography, 
+category: Photography,  
 category_slug: Photography
-category_slug: Videography
+category_slug: 
 category_slug: 
 image: images/house2/1aa.jpg
 short_description: 

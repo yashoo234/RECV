@@ -1,9 +1,9 @@
 ---
 # preview details
 title: Oakville
-category: Photography, Videography, Aerial Coverage
+category: Photography, , Aerial Coverage
 category_slug: Photography
-category_slug: Videography
+category_slug: 
 category_slug: Aerial Coverage
 image: images/house3/1aa.jpg
 short_description:

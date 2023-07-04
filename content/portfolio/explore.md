@@ -24,6 +24,11 @@ info:
 #   text: "<p>Aliquam a sapien diam. Phasellus pulvinar tellus aliquam eleifend consectetur. Sed bibendum leo quis rutrum aliquetmorbi.</p>
 #   <p>Donec imperdiet risus at tortor consequat maximus et eget magna. Cras ornare sagittis augue, id sollicitudin justo tristique ut. Nullam ex enim, euismod vel bibendum ultrices, fringilla vel eros. Donec euismod leo lectus, et euismod metus euismod sed. Quisque quis suscipit ipsum, at pellentesque velit. Duis a congue sem.</p>"
 
+video:
+  enable: 1
+  poster: images/blog/blog9.jpg
+  id: mpaJEg7tLxA
+
 gallery:
   enable: 1
   images:
@@ -98,9 +103,6 @@ gallery:
 #   text: "<p>Aliquam a sapien diam. Phasellus pulvinar tellus aliquam eleifend consectetur. Sed bibendum leo quis rutrum aliquetmorbi.</p>
 #   <p>Donec imperdiet risus at tortor consequat maximus et eget magna. Cras ornare sagittis augue, id sollicitudin justo tristique ut. Nullam ex enim, euismod vel bibendum ultrices, fringilla vel eros. Donec euismod leo lectus, et euismod metus euismod sed. Quisque quis suscipit ipsum, at pellentesque velit. Duis a congue sem.</p>"
 
-video:
-  enable: 1
-  poster: images/blog/blog9.jpg
-  id: mpaJEg7tLxA
+
 
 ---
