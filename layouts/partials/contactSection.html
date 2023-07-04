@@ -56,7 +56,7 @@
                     <div class="group">
                       <label>
                         {{ i18n "yourName" }} <b>*</b>
-                        <input type="text" name="name" >
+                        <input disabled type="text" name="name" >
                       </label>
                     </div>
                   </div>
@@ -64,7 +64,7 @@
                     <div class="group">
                       <label>
                         {{ i18n "yourEmail" }} <b>*</b>
-                        <input type="email" name="email" >
+                        <input disabled type="email" name="email" >
                       </label>
                     </div>
                   </div>
@@ -72,7 +72,7 @@
                     <div class="group">
                       <label>
                         {{ i18n "yourSubject" }} <b>*</b>
-                        <input type="text" name="subject" >
+                        <input disabled type="text" name="subject" >
                       </label>
                     </div>
                   </div>
@@ -80,15 +80,15 @@
                     <div class="group">
                       <label>
                         {{ i18n "yourMessage" }} <b>*</b>
-                        <textarea name="message"></textarea>
+                        <textarea disabled name="message"></textarea>
                       </label>
                     </div>
                   </div>
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 align-right">
-                    <div class="terms-label">{{ i18n "acceptTerms" }}</div>
-                    <a href="#" class="btn" onclick="$('#cform').submit(); return false;">
+                    <!-- <div class="terms-label">{{ i18n "acceptTerms" }}</div> -->
+                    <!-- <a href="#" class="btn" onclick="$('#cform').submit(); return false;">
                       <span>{{ i18n "sendMessage" }}</span>
-                    </a>
+                    </a> -->
                   </div>
                 </div>
               </form>

@@ -1,6 +1,6 @@
 # General Settings
 title = "Yash Patel - Portfolio"
-baseURL = "https://64a02e8b0e35133a953f8fb0--velvety-maamoul-04e875.netlify.app/" #YOUR SITE URL
+baseURL = "https://main--velvety-maamoul-04e875.netlify.app/" #YOUR SITE URL
 languageCode = "en-us"
 # theme = ""
 resourceDir = "resources"
@@ -40,11 +40,11 @@ DefaultContentLanguage = "en"
 #   name = "Testimonials"
 #   url = "#testimonials-section"
 #   weight = 60
-[[menu.main]]
-  identifier = "pricing"
-  name = "Pricing"
-  url = "#pricing-section"
-  weight = 70
+# [[menu.main]]
+#   identifier = "pricing"
+#   name = "Pricing"
+#   url = "#pricing-section"
+#   weight = 70
 # [[menu.main]]
 #   identifier = "blog"
 #   name = "Blog"
@@ -84,7 +84,7 @@ googleAnalytics = "" #YOUR GOOGLE ANALYTICS CODE
 
 # Preloader Settings
 [params.preloader]
-logo = "images/logo2.png"
+logo = "images/logo.jpg"
 alt = "Yash Patel"
 
 # Header Settings
