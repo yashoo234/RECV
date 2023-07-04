@@ -40,11 +40,11 @@ DefaultContentLanguage = "en"
 #   name = "Testimonials"
 #   url = "#testimonials-section"
 #   weight = 60
-[[menu.main]]
-  identifier = "pricing"
-  name = "Pricing"
-  url = "#pricing-section"
-  weight = 70
+# [[menu.main]]
+#   identifier = "pricing"
+#   name = "Pricing"
+#   url = "#pricing-section"
+#   weight = 70
 # [[menu.main]]
 #   identifier = "blog"
 #   name = "Blog"
@@ -84,7 +84,7 @@ googleAnalytics = "" #YOUR GOOGLE ANALYTICS CODE
 
 # Preloader Settings
 [params.preloader]
-logo = "images/logo2.png"
+logo = "images/logo.jpg"
 alt = "Yash Patel"
 
 # Header Settings

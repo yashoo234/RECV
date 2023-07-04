@@ -13,8 +13,8 @@ hero:
   after_title: "I make <strong>Real Estate Content</strong>"
   description: "Based in Toronto, I create dynamic videos, capture striking photos, and design immersive virtual tours."
   button1:
-    label: "Download CV"
-    link: "https://drive.google.com/"
+    label: "Contact Me"
+    link: "#contact-section"
   button2:
     label: "My Skills"
     link: "#skills-section"
@@ -23,8 +23,8 @@ hero:
     - num: "3 <strong>+</strong>"
       value: "Years of <strong>Experience</strong>"
 
-    - num: "330"
-      value: "Completed <strong>Projects</strong>"
+    # - num: "330"
+    #   value: "Completed <strong>Projects</strong>"
 
 ### Services [ services ]
 services:
@@ -37,26 +37,26 @@ services:
     - title: "Videography &amp; Editing"
       subtitle: "Video Production"
       text: "Transform the clients vision into captivating visuals through expert shooting, editing, and final delivery."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
+      # button_label: "See Pricing"
+      # button_link: "#pricing-section"
 
     - title: "Aerial Coverage"
       subtitle: "Drone Operator"
       text: "I provide striking aerial visuals, leveraging my skills as a licensed drone operator to meet the clients unique needs."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
+      # button_label: "See Pricing"
+      # button_link: "#pricing-section"
 
     - title: "Virtual Tours"
       subtitle: "Virtual-360 Tours"
       text: "Experience any property from anywhere with immersive virtual tours compatible with all devices."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
+      # button_label: "See Pricing"
+      # button_link: "#pricing-section"
 
     - title: "Photography"
       subtitle: "Photos"
       text: "Showcasing the beauty of the clients property with my sharp, high-quality photography."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
+      # button_label: "See Pricing"
+      # button_link: "#pricing-section"
 
 
 
@@ -82,32 +82,32 @@ skills:
   column1:
     items:
       - label: "Videography" #0-10 progress in dots
-        text: "With over 3 years of experience in video production, I have acquired a deep understanding of shooting all types of locations and can deliver a high-quality product."
-        value: "85" #0-100 progress in %
+        text: "Smooth stable footage shot on a full frame camera mounted on a three axis gimbal."
+        # value: "85" #0-100 progress in %
 
       - label: "Video Editing  " #0-10 progress in dots
-        text: "Todays audience has a short attention span, I can deliver a video that will keep the audience engaged and wanting more."
-        value: "75" #0-100 progress in %
+        text: "Editing and color grading done with Davinci Resolve."
+        # value: "75" #0-100 progress in %
 
   column2:
     items:
       - label: "Photography" #0-10 progress in dots
         text: "Shooting with a full-frame camera and an array of lenses, I can deliver high-quality photos that will make any property stand out."
-        value: "75" #0-100 progress in %
+        # value: "75" #0-100 progress in %
 
       - label: "Photo Editing" #0-10 progress in dots
         text: "Image manipulation is a key part of the editing process, I can deliver a final product that will make any property stand out."
-        value: "70" #0-100 progress in %
+        # value: "70" #0-100 progress in %
 
   column3:
     items:
       - label: "Drone Operator" #0-10 progress in dots
         text: "Licensed drone operator with over 3 years of experience, I can deliver aerial coverage to meet any of the clients needs."
-        value: "90" #0-100 progress in %
+        # value: "90" #0-100 progress in %
 
       - label: "Virtual Reality" #0-10 progress in dots
-        text: ""
-        value: "80" #0-100 progress in %
+        text: "Captured using a specilized camera rig, images processed and stitched with Adobe suit & photogammetry software, unlimited tours hosting."
+        # value: "80" #0-100 progress in %
 
 ### Resume [ resume ]
 resume:
@@ -130,12 +130,12 @@ resume:
       - name: "Freelance Videographer"
         subname: "Self Employed"
         period: "2020 - <b>Present</b>"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        text: "Started my videography journey as a music-video videographer and editor, I learned on the job creating eye-catching visuals with fast editing keeping modern audiences entertained. The first two music videos I made reached over 200 000 views, then I transitioned into making videos for small businesses."
 
-      - name: "Metal Roof Construction"
-        subname: "Drone operator/ Quality Inspector"
-        period: "2018 - 2023"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - name: "Drone Inspector"
+        subname: "Drone operator/ Videographer"
+        period: "2020 - 2023"
+        text: "I worked at Paramount Roofing as a metal roof inspector capturing content for inspection and marketing and marketing purposes."
 
 
 ### Testimonials [ testimonials ]
@@ -173,63 +173,63 @@ resume:
 
 
 ### Pricing [ pricing ]
-pricing:
-  enable: 1
-  title: "Pricing"
-  subtitle: "my <b>Price Board</b>"
-  bg_title: "Pricing"
+# pricing:
+#   enable: 1
+#   title: "Pricing"
+#   subtitle: "my <b>Price Board</b>"
+#   bg_title: "Pricing"
 
-  items:
-    - name: "Hourley Basis"
-      center: false
-      price: "75 <b>$</b>"
-      price_after: "Hour"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
-      list:
-        - value: "Photography"
-          included: true
-        - value: "Videography"
-          included: true
-        - value: "Virtual Reality"
-          included: true
-      button:
-        label: "Start Project"
-        link: "#contact-section"
+#   items:
+#     - name: "Hourley Basis"
+#       center: false
+#       price: "75 <b>$</b>"
+#       price_after: "Hour"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+#       list:
+#         - value: "Photography"
+#           included: true
+#         - value: "Videography"
+#           included: true
+#         - value: "Virtual Reality"
+#           included: true
+#       button:
+#         label: "Start Project"
+#         link: "#contact-section"
 
-    - name: "Freelancing"
-      center: true
-      label: "Popular"
-      price: "825 <b>$</b>"
-      price_after: "Week"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
-      list:
-        - value: "Photography"
-          included: true
-        - value: "Videography"
-          included: true
-        - value: "Virtual Reality"
-          included: true
-      button:
-        label: "Start Project"
-        link: "#contact-section"
+#     - name: "Freelancing"
+#       center: true
+#       label: "Popular"
+#       price: "825 <b>$</b>"
+#       price_after: "Week"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+#       list:
+#         - value: "Photography"
+#           included: true
+#         - value: "Videography"
+#           included: true
+#         - value: "Virtual Reality"
+#           included: true
+#       button:
+#         label: "Start Project"
+#         link: "#contact-section"
 
-    - name: "Monthly Contract"
-      center: false
-      price: "2.625 <b>$</b>"
-      price_after: "Month"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
-      list:
-        - value: "Brand Design"
-          included: true
-        - value: "Web Development"
-          included: true
-        - value: "Advertising"
-          included: true
-        - value: "Photography"
-          included: true
-      button:
-        label: "Start Project"
-        link: "#contact-section"
+#     - name: "Monthly Contract"
+#       center: false
+#       price: "2.625 <b>$</b>"
+#       price_after: "Month"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+#       list:
+#         - value: "Brand Design"
+#           included: true
+#         - value: "Web Development"
+#           included: true
+#         - value: "Advertising"
+#           included: true
+#         - value: "Photography"
+#           included: true
+#       button:
+#         label: "Start Project"
+#         link: "#contact-section"
 
 
 ### Blog [ blog ]
